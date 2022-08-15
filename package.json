@@ -1,0 +1,27 @@
+{
+  "name": "phrases-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon -e ts,json,mustache src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.14.9",
+    "@types/sequelize": "^4.28.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.3"
+  }
+}
